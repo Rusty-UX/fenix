@@ -7,6 +7,9 @@ languageCode = "en-us"
 languageLang = "en"
 defaultContentLanguage = "en"
 title = "My New Hugo Site"
+paginate = 5
+copyright = "All rights reserved - 2018"
+theme = "hugo-theme-casper"
 
 # Build settings
 # --------------
@@ -32,12 +35,16 @@ enableEmoji = true
 # Site Params
 # -------------
 [params]
-description = '''
-Write an awesome description for your new site here. You can edit this
-line in config.yml. It will appear in your document head meta (for
-Google search results) and in your RSS feed description.
-'''
-author = "Your name"
+  description = "Welcome to my website"
+  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  cover = ""
+  author = "YOUR_NAME"
+  authorlocation = "Earth, Milky Way Galaxy"
+  authorwebsite = ""
+  authorbio= ""
+  logo = ""
+  hjsStyle = "default"
+  paginatedsections = ["posts"]
 
 # Site Menus
 # See the Hugo docs for usage in layouts
