@@ -1,0 +1,10 @@
+---
+label: post content
+hide_body: true
+is_partial: false
+fields:
+- type: blocks
+  name: post_content
+  label: post content
+  template_types:
+  - gallery
