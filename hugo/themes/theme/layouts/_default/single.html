@@ -23,6 +23,11 @@
   </nav>
 </header>
 
+<div class="page-blocks">
+    {{- range .Params.blocks -}}
+        {{- if eq .template "image" -}}{{ partial "blocks/image" (dict "Params" .) }}{{- end -}}
+    {{- end -}}
+</div>
 
 
 <main class="content" role="main">

@@ -1,4 +1,4 @@
-<!-- {{ partial "header.html" . }}
+{{ partial "header.html" . }}
 
 
 
@@ -47,14 +47,6 @@
 
 
 <main class="content" role="main">
-
-{{ define "main" }}
-<div class="page-blocks">
-    {{- range .Params.blocks -}}
-        {{- if eq .template "image" -}}{{ partial "blocks/image" (dict "Params" .) }}{{- end -}}
-    {{- end -}}
-</div>
-{{ end }}
 
 
   <article class="post {{ .Section }}">
@@ -173,4 +165,3 @@
 {{ partial "suggestions.html" . }}
 
 {{ partial "footer.html" . }}
- -->
