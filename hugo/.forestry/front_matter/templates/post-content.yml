@@ -3,6 +3,9 @@ label: post content
 hide_body: true
 is_partial: false
 fields:
+- type: text
+  name: title
+  label: title
 - type: blocks
   name: post_content
   label: post content
