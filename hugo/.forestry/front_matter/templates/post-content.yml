@@ -8,3 +8,5 @@ fields:
   label: post content
   template_types:
   - gallery
+pages:
+- hugo/content/posts/test.md
