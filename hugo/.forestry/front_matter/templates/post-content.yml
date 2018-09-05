@@ -10,7 +10,7 @@ fields:
   name: post_content
   label: post content
   template_types:
-  - gallery
+  - image
 pages:
 - hugo/content/posts/test2.md
 - hugo/content/posts/test.md
