@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+<!-- {{ partial "header.html" . }}
 
 
 
@@ -31,7 +31,7 @@
     {{if eq .Params.index true}}
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">{{.Title}}</h1>
+            <h1 class="page-title">{{.Title}} fudge</h1>
             <h2 class="page-description">
                 {{if .Params.description}}
                     {{.Params.description}}
@@ -48,7 +48,13 @@
 
 <main class="content" role="main">
 
-
+{{ define "main" }}
+<div class="page-blocks">
+    {{- range .Params.blocks -}}
+        {{- if eq .template "image" -}}{{ partial "blocks/image" (dict "Params" .) }}{{- end -}}
+    {{- end -}}
+</div>
+{{ end }}
 
 
   <article class="post {{ .Section }}">
@@ -76,7 +82,6 @@
         {{end}}
         <!-- <li>{{.Title}}</li> -->
       </nav>
-
 
         <h1 class="post-title">{{.Title}}</h1>
         <small>{{.Description}}</small>
@@ -160,12 +165,6 @@
     </figure>
     {{end}}
 
-    {{ partial "author.html" . }}
-
-    {{ partial "share.html" . }}
-
-    {{ partial "disqus.html" . }}
-
   </footer>
 </article>
 
@@ -174,3 +173,4 @@
 {{ partial "suggestions.html" . }}
 
 {{ partial "footer.html" . }}
+ -->

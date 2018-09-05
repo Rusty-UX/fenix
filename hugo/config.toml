@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
 title = "My New Hugo Site"
 paginate = 5
 copyright = "All rights reserved - 2018"
-theme = "hugo-theme-casper"
+theme = "theme"
 
 # Build settings
 # --------------
@@ -38,7 +38,7 @@ enableEmoji = true
   description = "Welcome to my website"
   metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
   cover = ""
-  author = "YOUR_NAME"
+  author = "Rusty"
   authorlocation = "Earth, Milky Way Galaxy"
   authorwebsite = ""
   authorbio= ""
