@@ -5,5 +5,5 @@ is_partial: true
 display_field: image
 fields:
 - type: file
-  name: image
-  label: image
+  name: image_item
+  label: 'image '
