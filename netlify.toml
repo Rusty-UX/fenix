@@ -1,6 +1,5 @@
 [build]
-command = "cd ~/hugo"
-command = "hugo --minify"
+command = "cd ~/hugo && hugo --minify"
 publish = "public"
 
 [context.production.environment]
