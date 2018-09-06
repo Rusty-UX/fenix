@@ -1,6 +1,6 @@
 ---
 title: "My-First-Post"
-date: "2018-09-05T18:21:44-04:00"
+date: "2018-09-05"
 draft: true
 ---
 
