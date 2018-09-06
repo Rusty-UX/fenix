@@ -14,10 +14,10 @@ jobs:
       - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
       - run: htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html --empty-alt-ignore --disable-external
       - deploy:
-        name: deploy
-        command: |
-          if [ "${CIRCLE_BRANCH}" = "master" ]; then
-            ./s3deploy -source=$HUGO_BUILD_DIR -region=us-east-1 -bucket=$AWS_BUCKET -path=your-subfolder -key=$AWS_ACCESS_KEY_ID -secret=$AWS_SECRET_ACCESS_KEY
-          else
-            echo "Not master branch, dry run only"
-          fi
+                name: deploy
+                command: |
+                  if [ "${CIRCLE_BRANCH}" = "master" ]; then
+                    ./s3deploy -source=$HUGO_BUILD_DIR -region=us-east-1 -bucket=$AWS_BUCK -path=your-subfolder -key=$AWS_ACCESS_KEY_ID -secret=$AWS_SECRET_ACCESS_KEY
+                  else
+                    echo "Not master branch, dry run only"
+                  fi
