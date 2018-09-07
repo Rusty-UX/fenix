@@ -1,6 +1,6 @@
 ---
 title: "Index"
-slug: "/"
+url: "/"
 ---
 
 Hello world! I'm `content/_index.md`
