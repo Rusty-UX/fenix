@@ -6,6 +6,7 @@ copyright = "All rights reserved - 2018"
 theme = "theme"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 uglyURLS = true
+cloudinary_url = "https://res.cloudinary.com/rustycloud/image/upload/"
 
 [params]
   description = "Welcome to my website"
