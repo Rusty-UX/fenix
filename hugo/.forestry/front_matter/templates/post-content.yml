@@ -14,5 +14,4 @@ fields:
   - image
 pages:
 - hugo/content/test2.md
-- hugo/content/posts/test.md
 - hugo/content/posts/test2.md
