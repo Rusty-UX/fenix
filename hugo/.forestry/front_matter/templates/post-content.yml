@@ -10,6 +10,7 @@ fields:
   name: post_content
   label: post content
   template_types:
+  - markdown
   - image
 pages:
 - hugo/content/test2.md
