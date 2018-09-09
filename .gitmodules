@@ -1,0 +1,3 @@
+[submodule "hugo/themes/rustytheme"]
+	path = hugo/themes/rustytheme
+	url = https://github.com/rbaylis91/rustytheme
