@@ -14,42 +14,42 @@ General comments/License Statement if any.
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("../assets/fonts/source_serif/SourceSerifPro-Regular.ttf.woff2") format("woff2"); }
+  src: url("../fonts/source_serif/WOFF2/SourceSerifPro-Regular.ttf.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Source Serif';
   font-weight: normal;
   font-style: italic;
   font-display: swap;
-  src: url("../fonts/source_serif/SourceSerifPro-RegularIt.ttf.woff2") format("woff2"); }
+  src: url("../fonts/source_serif/WOFF2/SourceSerifPro-RegularIt.ttf.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Source Serif';
   font-weight: bold;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/source_serif/SourceSerifPro-Bold.ttf.woff2") format("woff2"); }
+  src: url("../fonts/source_serif/WOFF2/SourceSerifPro-Bold.ttf.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'TT Lakes';
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/source_serif/SourceSansPro-Regular.otf.woff2") format("woff2"); }
+  src: url("../fonts/source_serif/WOFF2/SourceSansPro-Regular.otf.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'TT Lakes';
   font-weight: bold;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/source_serif/SourceSansPro-Bold.otf.woff2") format("woff2"); }
+  src: url("../fonts/source_serif/WOFF2/SourceSansPro-Bold.otf.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Source Code';
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/source_serif/SourceCodePro-Regular.otf.woff2") format("woff2"); }
+  src: url("../fonts/source_serif/WOFF2/SourceCodePro-Regular.otf.woff2") format("woff2"); }
 
 body, html {
   font-family: "Source Serif", Georgia, "Times New Roman", serif; }
