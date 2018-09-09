@@ -35,21 +35,21 @@ General comments/License Statement if any.
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/source_serif/WOFF2/SourceSansPro-Regular.otf.woff2") format("woff2"); }
+  src: url("../fonts/source_sans/WOFF2/SourceSansPro-Regular.otf.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'TT Lakes';
   font-weight: bold;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/source_serif/WOFF2/SourceSansPro-Bold.otf.woff2") format("woff2"); }
+  src: url("../fonts/source_sans/WOFF2/SourceSansPro-Bold.otf.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Source Code';
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/source_serif/WOFF2/SourceCodePro-Regular.otf.woff2") format("woff2"); }
+  src: url("../fonts/source_code/WOFF2/SourceSerifPro-Bold.ttf.woff2") format("woff2"); }
 
 body, html {
   font-family: "Source Serif", Georgia, "Times New Roman", serif; }
@@ -126,8 +126,8 @@ sup,
 .st-light sup {
   font-size: 75%; }
 
-html {
-  background-color: black; }
+code {
+  font-family: "Source Code", "Consolas", "Monaco", "Liberation Mono", Menlo, Courier, monospace; }
 
 body, html {
   padding: 0;
