@@ -1,0 +1,47 @@
+/*   
+Theme Name: Rusty Blog 2017
+Theme URI: http://www.imrusty.com
+Description: A template for my blog
+Author: Russell Baylis
+Author URI: http://www.imrusty.com
+Version: 1.0
+.
+General comments/License Statement if any.
+.
+*/
+
+@import 'fonts-dev'; 
+@import 'variables';
+
+@import 'base-type';
+@import 'base-layout';
+
+/* Sections */
+@import 'sections/nav';
+@import 'sections/article';
+@import 'sections/index';
+@import 'sections/post_list';
+@import 'sections/inspire_board';
+
+/* Content */
+@import 'content/code';
+@import 'content/gallery';
+@import 'content/thumb_gallery';
+@import 'content/lightbox';
+@import 'content/rule';
+@import 'content/quote';
+@import 'content/video';
+@import 'content/footnotes';
+@import 'content/book_review';
+@import 'content/pull_quote';
+
+/* Theme */
+// @import 'theme';
+
+html{
+  margin-top: 0 !important;
+}
+
+// #wpadminbar{
+//   display: none;
+// }

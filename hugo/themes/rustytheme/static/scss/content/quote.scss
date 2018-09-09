@@ -1,0 +1,44 @@
+
+.content-quote{
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	padding-left: 2rem;
+	margin-left: 2px;
+	border-left: 3px solid $color-black;
+	padding-top: 0.125rem;
+	padding-bottom: 0.125rem;
+}
+
+blockquote{
+	font-family: $serif-stack;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+.content-quote p{
+	margin-top: 0;
+	line-height: 1.5;
+	font-size: 1rem;
+	margin-bottom: 0.625rem;
+}
+
+.content-quote-emphasis p{
+	font-size: 1.25rem;
+}
+
+.content-quote footer p{
+	font-family: $sans-stack;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-weight: 400;
+	margin-top: 0.5rem;
+	line-height: 1.6;
+	font-size: 0.6275rem;
+	margin-bottom: 0;
+}
+
+.content-quote footer a{
+	text-shadow: none;
+	background-image: none;
+}

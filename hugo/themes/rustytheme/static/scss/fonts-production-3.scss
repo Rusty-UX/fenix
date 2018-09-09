@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Source Serif';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/source_serif/WOFF2/OTF/SourceSerifPro-Regular-subsetted.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Serif';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/source_serif/WOFF2/OTF/SourceSerifPro-Semibold-subsetted.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Serif';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../fonts/pt_serif/PT_Serif-Web-Italic.woff');
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/ibm-plex-serif-subset/ibmplexsans-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  font-weight: bold; 
+  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/ibm-plex-serif-subset/ibmplexsans-semibold-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Code';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/source code/WOFF2/OTF/SourceCodePro-Regular.otf.woff2') format('woff2'), 
+  url('../fonts/source code/WOFF/OTF/SourceCodePro-Regular.otf.woff') format('woff');
+}

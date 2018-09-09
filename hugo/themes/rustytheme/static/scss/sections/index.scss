@@ -1,0 +1,56 @@
+.index-container{
+	max-width: 32.5rem;
+	margin: 0 auto;
+}
+
+.index-page{
+	background-color: black;
+	color: $var-index-body-color-1;
+
+	.post-link{
+		color: white;
+		text-decoration: none;
+	}
+
+	.navigation{
+		background-color: black;
+	}
+
+	.page-wrapper{
+		background-color: white;
+		position: relative;
+		z-index: 2;
+	}
+
+	.base-content-container{
+		padding-top: 2rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+.post-image-container{
+	position: relative;
+}
+
+div.cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+img.cover{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+ }

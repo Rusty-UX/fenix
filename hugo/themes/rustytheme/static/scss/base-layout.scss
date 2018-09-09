@@ -1,0 +1,61 @@
+// Base Layout
+
+html{
+	background-color: black;
+}
+
+body, html{
+	padding: 0;
+	margin: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+body{
+	padding: 0 0.25rem;
+	@media screen and (min-width: 600px) {
+		padding: 0 0.5rem;
+	}
+	box-sizing: border-box;
+	@media screen and (min-width: 1200px) {
+		padding: 0 1rem;
+	}
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.base-bg-layer{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #efefef;
+}
+
+.base-top-layer{
+	position: relative;
+	z-index: 5;
+	background-color: white;
+}
+
+.base-content-container{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.page-wrapper{
+	margin-top: $nav-height;
+	width: 100%;
+	min-height: 100vh;
+}
+
+.flex-container{
+	display: flex;
+}

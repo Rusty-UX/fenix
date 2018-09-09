@@ -1,0 +1,231 @@
+.post-image-container{
+ 	background-size: cover;
+ 	background-position: 50% 50%;
+ 	transition: all 0.4s ease;
+ 	width: 100%;
+ 	height: 100%;
+ 	position: absolute;
+}
+
+.post-item{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin-bottom: 0;
+	position: relative;
+	box-shadow: 0 0 0px rgba(0,0,0,0);
+	// transition: box-shadow 0.6s;
+	z-index: 5;
+}
+
+.post-link:hover .post-item{
+	box-shadow: 0 0 50px rgba(0,0,0,0.1);
+	z-index: 10;
+}
+
+.post-item-color-bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: all 0.2s;
+	z-index: 2;
+}
+
+.post-link:first-of-type .post-border-bottom-a{
+	opacity: 0;
+}
+.post-link:hover + .post-link .post-border-bottom{
+	opacity: 0;
+}
+
+.post-item-bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: white;
+	z-index: 3;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.post-item-content-container{
+	position: relative;
+	z-index: 5;
+}
+
+.text-container,
+.subtitle-date{
+	// transition: all 0.65s;
+}
+
+// .post-link:hover .text-container,
+// .post-link:hover .subtitle-date{
+// 	transform:translateX(1.5rem);
+// 	transition: all 0.4s;
+// }
+
+.post-anchor{
+	text-decoration: none;
+	color: black;
+}
+
+.post-border-bottom{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	transition: all 0.2s;
+}
+
+.post-border-bottom-a{
+	opacity: 1;
+	height: 1px;
+	top: -2rem;
+	background-color: rgba(0,0,0,0.1);
+}
+
+.post-border-bottom-b{
+	position: absolute;
+	width: 100%;
+	bottom: -2rem;
+	height: 1px;
+	left: 0;
+	transition: all 0.2s;	
+}
+
+.post-border-bottom-b{
+	opacity: 0;
+	transform-origin: center bottom;
+}
+
+.text-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.go-arrow{
+		color: black;
+		opacity: 0;
+		font-family: "Georgia", Helvetica, Arial;
+		font-size: 1.25rem;
+		transform: translateX(-3rem);
+	}
+}
+
+.post-item h4{
+	margin-top: 0;
+	text-decoration: none;
+	color: black;
+	margin-bottom: 0;
+	text-transform: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+	position: relative;
+	opacity: 0.875;
+	line-height: 1;
+	width: 100%;
+	text-align: center;
+}
+
+.post-item .subtitle-date {
+		width: 100%;
+		text-align: center;
+		color: black;
+    // font-family: "TT Lakes";
+    // text-transform: uppercase;
+    // font-size: 0.875rem;
+    // letter-spacing: 0.125em;
+    display: block;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    // font-variant: all-small-caps;
+    // font-weight: normal;
+    // color: black;
+    // font-size: 0.75rem;
+    // letter-spacing: 0.2em;
+    // @media screen and (min-width: 800px) {
+    // 	font-size: 0.6275rem;
+    // }
+}
+
+.post-link:hover .post-border-bottom-a{
+	opacity: 0;
+}
+
+.post-link:hover .post-border-bottom-b,
+.post-link:hover h4{
+	opacity: 1;
+}
+
+.post-link:hover .go-arrow{
+	transition: all 0.2s ease;
+	opacity: 1;
+	transform: translateX(-3rem);
+}
+
+.post-link:hover .post-border-bottom-b{
+	transform: scaleY(3);
+}
+
+.post-item p{
+	margin-bottom: 0;
+}
+
+.post-item :first-child{
+	margin-top: 0;
+}
+
+.post-item.post-with-image{
+	margin-top: 2rem;
+	padding-top: 0;
+}
+
+.post-item .post-image-wrapper{
+	// transition: all 0.5s;
+	overflow: hidden;
+ 	width: 100%;
+ 	padding-bottom: 33%;
+ 	position: relative;
+ 	margin-bottom: 1rem;
+}
+
+.category-switcher{
+	width: 100%;
+	display: flex;
+	margin-bottom: 0rem;
+}
+
+.cat-item, .cat-item-all{
+	list-style: none;
+	// font-size: 1rem;
+	font-family: $sans-stack;
+	letter-spacing: 0.02em;
+	opacity: 0.75;
+	font-size: 0.75rem;
+	// text-transform: uppercase;
+	// font-variant: all-small-caps;
+	// font-weight: 400;
+	line-height: 1.6;
+	padding: 0.5rem 0;
+	margin-right: 2rem;
+	// @media screen and (min-width: 800px) {
+	// 	font-size: 0.875rem;
+	// }
+}
+
+.cat-item a,
+.cat-item-all a{
+	text-decoration: none;
+	color: black;
+}
+
+.current-cat{
+	opacity: 1;
+}
+
+.current-cat a{
+	color: red;
+}

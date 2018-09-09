@@ -1,0 +1,49 @@
+// FONTS
+
+@font-face {
+  font-family: 'Source Serif';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/ibm-plex-serif-subset/ibm_plex_serif-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Serif';
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/ibm-plex-serif-subset/ibm_plex_serif_medium-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Serif';
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+  src: url('../fonts/ibm-plex-serif-subset/ibm_plex_serif_italic-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/ibm-plex-serif-subset/ibmplexsans-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  font-weight: bold; 
+  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/ibm-plex-serif-subset/ibmplexsans-semibold-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Code';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/ibm-plex-serif-subset/ibmplexmono-regular-webfont.woff2') format('woff2');
+}

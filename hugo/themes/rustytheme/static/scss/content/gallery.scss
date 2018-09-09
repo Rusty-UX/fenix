@@ -1,0 +1,101 @@
+figure{
+	position: relative;
+	margin: 3rem 0;
+	padding: 0;
+
+	img{
+		max-width: 100%;
+		padding: 0;
+		margin: 0;
+		display: block;
+		cursor: zoom-in;
+		user-select: none; 
+	}
+
+	.image-container + .image-container{
+		margin-top: 1rem;
+	}
+
+	figcaption,
+	figcaption p{
+		// font-size: 0.875rem;
+		// font-family: $sans-stack;
+		// letter-spacing: 0.125em;
+		// text-transform: uppercase;
+		// font-variant: all-small-caps;
+		// font-weight: 400;
+		margin-top: 0.5rem;
+		// line-height: 1.25;
+		// @media screen and (min-width: 1100px) {
+		// 	font-size: 0.75rem;
+		// }
+	}
+}
+
+.content-gallery{
+	position: relative;
+}
+
+img[data-src]{
+	background-color: rgba(0,0,0,0.1);
+	min-height: 200px;
+	@media screen and (min-width: 600px) {
+		min-height: 300px;
+	}
+	@media screen and (min-width: 800px) {
+		min-height: 400px;
+	}
+	@media screen and (min-width: 1000px) {
+		min-height: 500px;
+	}
+}
+
+img[data-src][src]{
+	background-color: transparent;
+	min-height: 0;
+}
+
+.content-gallery-matte{
+	padding: 4rem;
+	box-sizing: border-box;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.image-matte-bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.content-gallery-matte figure{
+	margin: 0;
+}
+
+.caption-aside{
+	position: relative;
+
+	.image-container{
+		position: relative;
+	}
+
+	@media screen and (min-width: 1200px) {
+
+
+	.image-container + .image-container{
+		margin-top: 0.25rem;
+	}
+
+		figcaption{
+			text-align: left;
+		  position: absolute;
+		  left: 100%;
+		  width: 15vw;
+		  max-width: 20rem;
+		  bottom: 1rem;
+		  margin-left: 1rem;
+		}
+	}
+}

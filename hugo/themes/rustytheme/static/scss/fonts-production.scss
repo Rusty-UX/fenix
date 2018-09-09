@@ -1,0 +1,85 @@
+// FONTS
+
+/* Source Serif */
+@font-face {
+  font-family: 'Source Serif';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://d1z1vzw0kju6zc.cloudfront.net/assets/source serif/WOFF2/OTF/SourceSerifPro-Regular-subsetted.woff2') format('woff2'), 
+  url('https://d1z1vzw0kju6zc.cloudfront.net/assets/source serif/WOFF/OTF/SourceSerifPro-Regular.otf.woff') format('woff');
+}
+/* test */
+
+@font-face {
+  font-family: 'Source Serif';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://d1z1vzw0kju6zc.cloudfront.net/assets/source serif/WOFF2/OTF/SourceSerifPro-Semibold-subsetted.woff2') format('woff2'), 
+  url('https://d1z1vzw0kju6zc.cloudfront.net/assets/source serif/WOFF/OTF/SourceSerifPro-Semibold.otf.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Source Serif';
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url('https://d1z1vzw0kju6zc.cloudfront.net/assets/pt serif/PT_Serif-Web-Italic.woff');
+}
+
+/* Source Sans */
+@font-face {
+  font-family: 'Source Sans';
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://d1z1vzw0kju6zc.cloudfront.net/assets/source sans/WOFF2/OTF/SourceSansPro-Light.otf.woff2') format('woff2'), 
+  url('https://d1z1vzw0kju6zc.cloudfront.net/assets/source sans/WOFF/OTF/SourceSansPro-Light.otf.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Source Sans';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://d1z1vzw0kju6zc.cloudfront.net/assets/source sans/WOFF2/OTF/SourceSansPro-Regular.otf.woff2') format('woff2'), 
+  url('https://d1z1vzw0kju6zc.cloudfront.net/assets/source sans/WOFF/OTF/SourceSansPro-Regular.otf.woff') format('woff');
+}
+
+/* Jura */
+@font-face {
+  font-family: 'Jura';
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://d1z1vzw0kju6zc.cloudfront.net/assets/jura/Jura-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Jura';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://d1z1vzw0kju6zc.cloudfront.net/assets/jura/Jura-SemiBold.woff2') format('woff2'),
+       url('https://d1z1vzw0kju6zc.cloudfront.net/assets/jura/Jura-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Jura';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://d1z1vzw0kju6zc.cloudfront.net/assets/jura/Jura-Bold.ttf') format('woff2');
+}
+
+/* Source Code */
+
+@font-face {
+  font-family: 'Source Code';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://d1z1vzw0kju6zc.cloudfront.net/assets/source code/WOFF2/OTF/SourceCodePro-Regular.otf.woff2') format('woff2'), 
+  url('https://d1z1vzw0kju6zc.cloudfront.net/assets/source code/WOFF/OTF/SourceCodePro-Regular.otf.woff') format('woff');
+}
