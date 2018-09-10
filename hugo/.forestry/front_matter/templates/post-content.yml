@@ -14,5 +14,4 @@ fields:
   - markdown
   - image
 pages:
-- hugo/content/articles/test-3.md
 - hugo/content/test2.md
