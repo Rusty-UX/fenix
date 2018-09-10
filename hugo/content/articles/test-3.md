@@ -4,5 +4,7 @@ title = "markdown post"
 [[post_content]]
 content = "<p>Testing the markdown field out. Let's see if this sucker works. Lorem ipsum dolor sit amet, consectetur adip*isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adip*isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.</p>"
 template = "markdown"
+[[post_content]]
+template = "image"
 
 +++
