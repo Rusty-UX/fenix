@@ -19,4 +19,4 @@ cloudinary_url = "https://res.cloudinary.com/rustycloud/image/upload/"
   authorbio= ""
   logo = ""
   hjsStyle = "default"
-  paginatedsections = ["articles"]
+  paginatedsections = ["posts"]
