@@ -1,4 +1,4 @@
-baseURL= ""
+baseURL= "localhost:1313"
 languageCode= "en"
 title= "Hugo Boilerplate"
 paginate = 5
@@ -6,6 +6,7 @@ copyright = "All rights reserved - 2018"
 theme = "rustytheme"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 uglyURLS = true
+relativeURLS = true
 cloudinary_url = "https://res.cloudinary.com/rustycloud/image/upload/"
 
 [params]

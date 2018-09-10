@@ -8,5 +8,7 @@ Lorem ipsum dolor sit amet, consectetur adip*isicing elit, sed do eiusmod *tempo
 
 Lorem ipsum dolor sit amet, consectetur adip*isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
 
+This should be rendering on the homepage
+
   
 ![](https://res.cloudinary.com/rustycloud/image/upload/v1536364610/jackolantern.png)
