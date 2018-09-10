@@ -14,4 +14,5 @@ fields:
   - markdown
   - image
 pages:
+- hugo/content/posts/markdown-test-2.md
 - hugo/content/test2.md
