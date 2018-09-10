@@ -6,6 +6,7 @@ fields:
 - type: text
   name: title
   label: title
+  default: post content
 - type: blocks
   name: post_content
   label: post content
@@ -13,4 +14,5 @@ fields:
   - markdown
   - image
 pages:
+- hugo/content/articles/test-3.md
 - hugo/content/test2.md
