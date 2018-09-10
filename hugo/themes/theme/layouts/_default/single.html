@@ -1,5 +1,9 @@
 {{ partial "header.html" . }}
 
+<div>
+     <p>Template: <span>{{ .Template }}</span> - Kind: <span>{{ .Which }}</span></p>
+</div>
+
 {{if .Params.image}}
   {{if or (eq (substr .Params.image 0 7) "http://") (eq (substr .Params.image 0 8) "https://")}}
   <header class="main-header post-head" style="background-image: url({{.Params.image }})">
@@ -23,17 +27,15 @@
   </nav>
 </header>
 
+
+TESTING
 <div class="page-blocks">
     {{- range .Params.blocks -}}
         {{- if eq .template "image" -}}{{ partial "blocks/image" (dict "Params" .) }}{{- end -}}
     {{- end -}}
 </div>
 
-
 <main class="content" role="main">
-
-
-ASCIITREST
   <article class="post {{ .Section }}">
 
     <header class="post-header">

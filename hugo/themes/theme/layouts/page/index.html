@@ -1,4 +1,8 @@
-<!-- {{ partial "header.html" . }}
+{{ partial "header.html" . }}
+
+<div>
+     <p>Template: <span>{{ .Template }}</span> - Kind: <span>{{ .Which }}</span></p>
+</div>
 
 {{if .Site.Params.cover}}
 {{if or (eq (substr .Site.Params.cover 0 7) "http://") (eq (substr .Site.Params.cover 0 8) "https://")}}
@@ -42,4 +46,3 @@
 </main>
 
 {{ partial "footer.html" . }}
- -->
