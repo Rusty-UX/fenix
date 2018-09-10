@@ -5,6 +5,7 @@ title = "markdown test 2"
 markdown = "<p>This is the first markdown block</p>"
 template = "markdown"
 [[post_content]]
+markdown = "<p>This is the second markdown block</p>"
 template = "markdown"
 
 +++
