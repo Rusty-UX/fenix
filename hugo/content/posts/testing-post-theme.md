@@ -14,5 +14,4 @@ heading_color = "rgb(0, 0, 0)"
 heading_link_color = "rgb(74, 144, 226)"
 nav_text_color = "rgb(255, 255, 255)"
 template = "post-theme-content"
-
 +++

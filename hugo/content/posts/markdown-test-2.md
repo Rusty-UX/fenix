@@ -13,5 +13,4 @@ bg_color_2 = "rgb(25, 0, 0)"
 content_bg = "#FFFFFF"
 heading_color = "#000000"
 template = "post-theme-content"
-
 +++

@@ -3,7 +3,6 @@ languageCode= "en"
 title= "Hugo Boilerplate"
 paginate = 5
 copyright = "All rights reserved - 2018"
-theme = "rustytheme"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 uglyURLS = true
 relativeURLS = true
