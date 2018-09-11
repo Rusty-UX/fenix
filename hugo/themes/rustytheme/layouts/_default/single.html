@@ -23,13 +23,12 @@
   </nav>
 </header>
 
-<div class="post-blocks xyz">
+<div class="post-blocks">XYZ
     {{- range .Params.post_content -}}
         {{- if eq .template "image" -}}
           {{ partial "blocks/image" (dict "Params" .) }}
         {{- end -}}
         {{- if eq .template "markdown" -}}
-          YO
           {{ partial "blocks/markdown" (dict "Params" .) }}
         {{- end -}}
     {{- end -}}

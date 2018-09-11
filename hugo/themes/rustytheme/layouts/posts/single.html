@@ -22,10 +22,8 @@
   {{end}}
   </nav>
 </header>
-
-TESTING TESTING 123
-
-<div class="post-blocks">
+AMERICA
+<div class="post-blocks ">
     {{- range .Params.post_content -}}
         {{- if eq .template "image" -}}{{ partial "blocks/image" (dict "Params" .) }}{{- end -}}
         {{- if eq .template "markdown" -}}{{ partial "blocks/markdown" (dict "Params" .) }}{{- end -}}
@@ -67,7 +65,7 @@ TESTING TESTING 123
 
   </footer>
 </article>
-_DEFAULT > SINGLE.HTML
+POSTS > SINGLE.HTML
 </main>
 
 {{if not .Params.hideSuggestions }}

@@ -22,9 +22,6 @@
   {{end}}
   </nav>
 </header>
-
-TESTING TESTING 123
-
 <div class="post-blocks">
     {{- range .Params.post_content -}}
         {{- if eq .template "image" -}}{{ partial "blocks/image" (dict "Params" .) }}{{- end -}}
