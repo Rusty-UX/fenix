@@ -22,10 +22,14 @@
   {{end}}
   </nav>
 </header>
-AMERICA
+{{- range .Params.post_theme -}}
+    {{- if eq .template "post-theme-content" -}}
+        {{ partial "blocks/post_theme" }}
+    {{- end -}}
+{{- end -}}
 <div class="post-blocks ">
     {{- range .Params.post_content -}}
-        {{- if eq .template "image" -}}{{ partial "blocks/image" (dict "Params" .) }}{{- end -}}
+      	{{- if eq .template "image" -}}{{ partial "blocks/image" (dict "Params" .) }}{{- end -}}
         {{- if eq .template "markdown" -}}{{ partial "blocks/markdown" (dict "Params" .) }}{{- end -}}
     {{- end -}}
 </div>
