@@ -33,26 +33,26 @@ fields:
   label: Heading link color
 - type: color
   config:
-    color_format: Hex
+    color_format: RGB
   label: Body text color
   name: body_text_color
 - type: color
   config:
-    color_format: Hex
+    color_format: RGB
   label: Body text link color
   name: body_text_link_color
 - type: color
   name: nav_text_color
   config:
-    color_format: Hex
+    color_format: RGB
   label: Navigation text color
 - type: color
   name: border_color
   config:
-    color_format: Hex
+    color_format: RGB
   label: Border color
 - type: color
   name: footer_post_link_color
   config:
-    color_format: Hex
+    color_format: RGB
   label: Footer post link color
