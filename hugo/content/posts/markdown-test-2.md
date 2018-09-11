@@ -7,5 +7,11 @@ template = "markdown"
 [[post_content]]
 markdown = "<p>This is the second markdown block</p>"
 template = "markdown"
+[[post_theme]]
+bg_color_1 = "rgb(255, 12, 12)"
+bg_color_2 = "rgb(25, 0, 0)"
+content_bg = "#FFFFFF"
+heading_color = "#000000"
+template = "post-theme-content"
 
 +++
