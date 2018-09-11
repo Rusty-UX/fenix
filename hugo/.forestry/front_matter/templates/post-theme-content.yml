@@ -19,12 +19,12 @@ fields:
 - type: color
   name: content_bg
   config:
-    color_format: Hex
+    color_format: RGB
   label: Content background
 - type: color
   name: heading_color
   config:
-    color_format: Hex
+    color_format: RGB
   label: Heading color
 - type: color
   name: heading_link_color
