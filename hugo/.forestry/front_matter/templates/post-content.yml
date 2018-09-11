@@ -13,6 +13,12 @@ fields:
   template_types:
   - markdown
   - image
+- type: blocks
+  name: post_theme
+  label: post theme
+  config:
+    min: '1'
+    max: '1'
 pages:
 - hugo/content/posts/markdown-test-2.md
 - hugo/content/test2.md
