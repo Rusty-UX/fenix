@@ -23,15 +23,12 @@
   </nav>
 </header>
 
-<div class="post-blocks xyz">
+TESTING TESTING 123
+
+<div class="post-blocks">
     {{- range .Params.post_content -}}
-        {{- if eq .template "image" -}}
-          {{ partial "blocks/image" (dict "Params" .) }}
-        {{- end -}}
-        {{- if eq .template "markdown" -}}
-          YO
-          {{ partial "blocks/markdown" (dict "Params" .) }}
-        {{- end -}}
+        {{- if eq .template "image" -}}{{ partial "blocks/image" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "markdown" -}}{{ partial "blocks/markdown" (dict "Params" .) }}{{- end -}}
     {{- end -}}
 </div>
 
@@ -78,4 +75,4 @@ _DEFAULT > SINGLE.HTML
 {{ end }}
 
 {{ partial "footer.html" . }}
-_DEFAULT > SINGLE.HTML
+
