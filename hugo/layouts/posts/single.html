@@ -22,6 +22,7 @@
   {{end}}
   </nav>
 </header>
+<main class="content" role="main">
 {{- range .Params.post_theme -}}
     {{- if eq .template "post-theme-content" -}}
         {{ partial "blocks/post_theme" }}
@@ -33,12 +34,6 @@
         {{- if eq .template "markdown" -}}{{ partial "blocks/markdown" (dict "Params" .) }}{{- end -}}
     {{- end -}}
 </div>
-
-
-<main class="content" role="main">
-
-
-
 
   <article class="post {{ .Section }}">
 
