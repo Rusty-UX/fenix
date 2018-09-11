@@ -22,4 +22,5 @@ fields:
   - markdown
   - image
 pages:
+- hugo/content/posts/sept-11-2018-7-25pm.md
 - hugo/content/test2.md
