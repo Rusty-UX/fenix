@@ -29,7 +29,7 @@ fields:
 - type: color
   name: heading_link_color
   config:
-    color_format: Hex
+    color_format: RGB
   label: Heading link color
 - type: color
   config:
