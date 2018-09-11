@@ -1,0 +1,58 @@
+---
+label: post theme content
+hide_body: false
+is_partial: true
+fields:
+- type: color
+  name: bg_color_1
+  config:
+    color_format: RGB
+  label: background color 1
+- type: color
+  name: bg_color_2
+  config:
+    color_format: RGB
+  label: Background color 2
+- type: number
+  name: gradient_angle
+  label: Gradient Angle
+- type: color
+  name: content_bg
+  config:
+    color_format: Hex
+  label: Content background
+- type: color
+  name: heading_color
+  config:
+    color_format: Hex
+  label: Heading color
+- type: color
+  name: heading_link_color
+  config:
+    color_format: Hex
+  label: Heading link color
+- type: color
+  config:
+    color_format: Hex
+  label: Body text color
+  name: body_text_color
+- type: color
+  config:
+    color_format: Hex
+  label: Body text link color
+  name: body_text_link_color
+- type: color
+  name: nav_text_color
+  config:
+    color_format: Hex
+  label: Navigation text color
+- type: color
+  name: border_color
+  config:
+    color_format: Hex
+  label: Border color
+- type: color
+  name: footer_post_link_color
+  config:
+    color_format: Hex
+  label: Footer post link color
